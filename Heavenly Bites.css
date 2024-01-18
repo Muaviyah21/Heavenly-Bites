@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar Section Start */
+#navbar {
+    display: flex;
+
+}
+
+.logo img {
+    height: 110px;
+    width: 110px;
+    margin-top: -16px;
+    margin-left: 20px;
+}
+
+.primary-heading {
+    font-size: 20px;
+    margin: 20px -2px;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbar ul {
+    display: flex;
+    position: absolute;
+    right: 122px;
+    top: 35px;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+    transition: 0.8s;
+    transition-duration: 2.5s;
+}
+
+
+#navbar ul li a:hover {
+    color: orange;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px 7px;
+}
+
+.sign-up {
+    position: absolute;
+    right: 23px;
+    top: 34px;
+    background-color: orange;
+    border-radius: 7px;
+    padding: 3.5px 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(240, 216, 194);
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+/* Navbar Section End */
+/* Home Section Start */
+#Home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    margin-left: 55px;
+}
+
+.secondary-heading {
+    padding: 2px 18px;
+    margin: 23px 21px;
+    font-size: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.tag-line {
+    color: orange;
+    font-size: 28.5px;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin-left: 44px;
+    margin-top: -17px;
+}
+
+.home-img {
+    position: absolute;
+    right: 80px;
+    top: 130px;
+
+}
+
+p {
+    margin-top: 17px;
+    margin-left: 40px;
+    width: 750px;
+    font-size: 15px;
+}
+
+.search-bar input {
+    border: 2px solid rgb(255, 145, 0);
+    padding: 6px 13px;
+    margin-left: 40px;
+    margin-top: 8px;
+    width: 46%;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.Search {
+    position: absolute;
+    left: 340px;
+    top: 405px;
+    background-color: rgb(253, 138, 7);
+    border-radius: 7px;
+    padding: 3.5px 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Home Section End */
+/* Menu Section Start */
+#Menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 80px 0px;
+
+}
+
+
+.menu-list ul {
+    display: flex;
+    position: absolute;
+    left: 70px;
+    top: 530px;
+
+}
+
+.menu-list ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-list ul li a {
+    color: black;
+    text-decoration: none;
+    padding-right: 21px;
+    transition: 0.7s;
+    transition-duration: 2.5s;
+}
+
+.menu-list ul li a:hover {
+    color: orange;
+    background-color: black;
+    border-radius: 9px;
+    padding-left: 0.5px;
+}
+
+.box {
+    border: 2px solid black;
+    width: 276px;
+    padding: 6px 28px;
+    margin: 2px 126px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.box-img {
+    width: 90%;
+    margin-top: 6px;
+    margin-left: 20px;
+    padding: 3px 4px;
+
+}
+
+#box-primary {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30px;
+    
+}
+
+#Main-Courses {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 24px;
+    transition: 0.7s;
+    transition-duration: 2.5s;
+    cursor: pointer;
+}
+
+#Main-Courses:hover {
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0px 500px;
+}
+
+.Order-Now {
+    background-color: rgb(253, 138, 7);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin-left: 180px;
+    transition: 0.7s;
+    transition-duration: 2.5s;
+    cursor: pointer;
+}
+
+.Order-Now:hover {
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#box-secondary {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30px;
+}
+
+#Appertizes {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 24px;
+    transition: 0.7s;
+    transition-duration: 2.5s;
+    cursor: pointer;
+}
+
+#Appertizes:hover {
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0px 500px;
+}
+
+#box-third {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30px;
+}
+
+#Salads {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 24px;
+    transition: 0.7s;
+    transition-duration: 2.5s;
+    cursor: pointer;
+}
+
+#Salads:hover {
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0px 500px;
+}
+
+#box-fourth {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30px;
+}
+
+#Desserts {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 24px;
+    transition: 0.7s;
+    transition-duration: 2.5s;
+    cursor: pointer;
+}
+
+#Desserts:hover {
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0px 500px;
+}
+
+#box-fifth {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30px;
+}
+
+#Beverages {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 24px;
+    transition: 0.7s;
+    transition-duration: 2.5s;
+    cursor: pointer;
+}
+
+#Beverages:hover {
+    color: orange;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0px 500px;
+}
+
+/* Menu Section End */
+/* About us Section Start */
+#About{
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#About img {
+    width: 33%;
+    margin-left: 51px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.Closing-Words {
+    margin-left: 42%;
+    margin-top: -21%;
+    font-size: 15.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 58%;
+}
+
+
+
+/* About us Section End */
+/* Contact us Section Start */
+#Contact {
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(96.1%, 44.3%, 10.2%);
+    width: 100%;
+    height: 100%;
+}
+
+.Tiger {
+    display: flex;
+    flex-direction: column;
+    margin: 22px -32px;
+    font-family: cursive;
+    font-size: 26px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* Remove default list styles */
+    width: 185px;
+}
+
+.Tiger h2 {
+    margin-bottom: 10px;
+    /* Add margin below the heading for spacing */
+}
+
+.Tiger li {
+    margin: 5px 0;
+    /* Add margin to each list item for spacing */
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Contact ul {
+    margin: 0 98px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#Contact ul li {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.img-grid img {
+    margin: 20px;
+}
+
+#Contact ul li img {
+    width: 81%;
+    height: 45%;
+    margin: -8px 0px;
+    margin-left: -23px;
+}
+
+
+
+/* Styling for the Cat class */
+.Cat {
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Styling for the Parrot class */
+.Parrot {
+    display: flex;
+    width: 94%;
+    margin-top: 26px;
+    margin-left: 36px;
+    border: 2px solid rgb(248, 243, 243);
+    border-radius: 4px;
+}
+
+/* Styling for the Join-Now class and centering the button */
+.Join-Now {
+    display: block;
+    width: 70px;
+    margin: 20px 47%;
+    color: black;
+    background-color: rgb(96.1%, 44.3%, 10.2%);
+    border: 2px solid rgb(96.1%, 44.3%, 10.2%);
+    border-radius: 5px;
+    padding: 4.5px 5px;
+    box-shadow: 3px 2px 9px 5px rgb(96.1%, 44.3%, 10.2%);
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
